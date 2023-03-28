@@ -12,7 +12,7 @@ const BLOG = {
 
   AUTHOR: 'AnJhon', // 作者
   BIO: '但知行好事，莫要问前程', // 作者简介
-  LINK: 'www.anjhon.top', // 网站地址
+  LINK: 'https://www.anjhon.top', // 网站地址
   KEYWORDS: 'Notion, 博客', // 网站关键词 英文逗号隔开
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: 'anjhon@163.com', // 邮箱
