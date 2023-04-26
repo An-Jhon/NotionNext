@@ -40,7 +40,7 @@ const LatestPostsGroup = ({ latestPosts, siteInfo }) => {
           className={'my-2 flex'}>
 
           <div
-            className="w-20 h-15 bg-none bg-center bg-no-repeat"
+            className="w-20 h-14 bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: headerImage }}
           />
           <div
