@@ -52,7 +52,7 @@ const Header = props => {
   return (
     <header
       id="header"
-      className="duration-500 md:bg-fixed w-full bg-cover bg-center h-500 bg-black text-white relative z-10"
+      className="duration-500 md:bg-fixed w-full bg-cover bg-center h-screen bg-black text-white relative z-10"
       style={{
         backgroundImage:
           `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.1), rgba(0,0,0,0.0), rgba(0,0,0,0.1), rgba(0, 0, 0, 0.2) ),url("${siteInfo?.pageCover}")`
