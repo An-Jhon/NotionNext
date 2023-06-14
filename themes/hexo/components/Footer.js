@@ -15,6 +15,7 @@ const Footer = ({ title }) => {
   return (
     <footer
       className='relative z-10 dark:bg-black flex-shrink-0 bg-hexo-light-gray justify-center text-center m-auto w-full leading-6  text-gray-600 dark:text-gray-100 text-sm p-6'
+      style={{ backgroundColor: 'rgba(0, 0, 0, 0)' }} // **********自定义添加**********将背景颜色设置为完全透明
     >
       {/* <DarkModeButton/> */}
 
