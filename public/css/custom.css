@@ -20,7 +20,7 @@
   background-size: 30px 28px;
 }
 
-footer {
+/* footer {
   background: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.1) 0px,
@@ -36,4 +36,8 @@ footer {
     transparent 100px
   );
   background-size: 30px 28px;
+} */
+
+footer {
+  background-color: rgba(0, 0, 0, 0); /* 设置背景颜色的透明度为 0.5 */
 }
