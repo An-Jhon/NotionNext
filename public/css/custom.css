@@ -38,6 +38,6 @@ footer {
   background-size: 30px 28px;
 }
 
-/* footer {
-  background-color: rgba(0, 0, 0, 0); /* 设置背景颜色的透明度为 0.5 */
-} */
+footer {
+  background-color: rgba(0, 0, 0, 0); /* 设置背景颜色的透明度为 0 */
+}
