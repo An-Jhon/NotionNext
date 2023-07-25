@@ -20,7 +20,7 @@ const BlogPostCard = ({ post, showSummary, index, siteInfo }) => {
         data-aos-once="false"
         data-aos-anchor-placement="top-bottom"
         className={`flex md:flex-row flex-col-reverse  ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}
-        w-full md:h-100 h-96 justify-between overflow-hidden drop-shadow-md  
+        w-full md:h-75 h-100 justify-between overflow-hidden drop-shadow-md  
         border dark:border-black rounded-xl bg-white dark:bg-hexo-black-gray  `}>
 
         <div className={`lg:p-8 p-4 flex flex-col  ${showPageCover ? 'md:w-7/12 w-full' : 'w-full'}`}>
