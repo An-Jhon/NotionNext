@@ -1,43 +1,38 @@
 /* 静态文件导入 自定义样式*/
 
-#wrapper{
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+#wrapper {
   width: 100%;
   height: 100%;
   background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.1) 0px,
-      rgba(0, 0, 0, 0.1) 1px,
-      transparent 1px,
-      transparent 100px
-    ),
-    linear-gradient(
-      90deg,
-      rgba(0, 0, 0, 0.1) 0px,
-      rgba(0, 0, 0, 0.1) 1px,
-      transparent 1px,
-      transparent 100px
-    );
-  background-size: 25px 23px;
+    -45deg,
+    #ff0000,
+    #00ff00,
+    #0000ff
+  );
+  background-size: 200% 200%;
+  animation: gradientAnimation 5s infinite;
 }
 
 footer {
   background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.1) 0px,
-    rgba(0, 0, 0, 0.1) 1px,
-    transparent 1px,
-    transparent 100px
-  ),
-  linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 0.1) 0px,
-    rgba(0, 0, 0, 0.1) 1px,
-    transparent 1px,
-    transparent 100px
+    45deg,
+    #0000ff,
+    #00ff00,
+    #ff0000
   );
-  background-size: 25px 23px;
+  background-size: 200% 200%;
+  animation: gradientAnimation 5s infinite;
 }
 
 footer {
-  background-color: rgba(0, 0, 0, 0); /* 设置背景颜色的透明度为 0 */
+  background-color: rgba(0, 0, 0, 0);
 }
