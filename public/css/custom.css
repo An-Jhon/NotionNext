@@ -14,9 +14,15 @@
   height: 100%;
   background: linear-gradient(
     -45deg,
-    #ff0000,
-    #00ff00,
-    #0000ff
+    #cf1322, 
+    #fa541c, 
+    #f39c12, 
+    #2ecc71, 
+    #25a55b, 
+    #10a5a5, 
+    #096dd9, 
+    #aa6fe9,
+    #eb2f96
   );
   background-size: 200% 200%;
   animation: gradientAnimation 5s infinite;
@@ -25,9 +31,15 @@
 footer {
   background: linear-gradient(
     45deg,
-    #0000ff,
-    #00ff00,
-    #ff0000
+    #cf1322, 
+    #fa541c, 
+    #f39c12, 
+    #2ecc71, 
+    #25a55b, 
+    #10a5a5, 
+    #096dd9, 
+    #aa6fe9,
+    #eb2f96
   );
   background-size: 200% 200%;
   animation: gradientAnimation 5s infinite;
