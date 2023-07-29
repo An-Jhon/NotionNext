@@ -13,16 +13,9 @@
   width: 100%;
   height: 100%;
   background: linear-gradient(
-    -45deg,
-    #cf1322, 
-    #fa541c, 
-    #f39c12, 
-    #2ecc71, 
-    #25a55b, 
-    #10a5a5, 
-    #096dd9, 
-    #aa6fe9,
-    #eb2f96
+    60deg,  /* 修改为60度角 */
+    #64b3f4, /* 修改为第一个颜色值 #64b3f4 */
+    #c2e59c  /* 修改为第二个颜色值 #c2e59c */
   );
   background-size: 200% 200%;
   animation: gradientAnimation 20s infinite;
@@ -30,16 +23,9 @@
 
 footer {
   background: linear-gradient(
-    45deg,
-    #cf1322, 
-    #fa541c, 
-    #f39c12, 
-    #2ecc71, 
-    #25a55b, 
-    #10a5a5, 
-    #096dd9, 
-    #aa6fe9,
-    #eb2f96
+    60deg,  /* 修改为60度角 */
+    #c2e59c, /* 修改为第二个颜色值 #c2e59c */
+    #64b3f4  /* 修改为第一个颜色值 #64b3f4 */
   );
   background-size: 200% 200%;
   animation: gradientAnimation 20s infinite;
