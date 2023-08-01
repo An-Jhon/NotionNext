@@ -19,7 +19,7 @@ export default function HeaderArticle({ post, siteInfo }) {
   return (
     <div
       id="header"
-      className="z-40 w-full h-80 relative md:flex-shrink-0 overflow-hidden bg-cover bg-center bg-no-repeat animate__animated animate__fadeIn relative"
+      className="z-40 w-full h-80 backdrop-opacity-80 relative md:flex-shrink-0 overflow-hidden bg-cover bg-center bg-no-repeat animate__animated animate__fadeIn relative"
       style={{ backgroundImage: headerImage }}
     >
       <header className="animate__slideInDown animate__animated bg-black bg-opacity-50 absolute top-0 w-full h-96 py-10 flex justify-center items-center ">
