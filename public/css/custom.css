@@ -9,6 +9,15 @@
   }
 }
 
+@keyframes breathAnimation { /* 呼吸动画 */
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
 @keyframes slideAnimation {  /* 滑动动画1 */
   0%, 100% {
     bottom: 20%;
@@ -68,13 +77,13 @@ body {
   content: "";
   position: fixed;
   bottom: 20%;
-  left: 2.5%;
-  width: 80px; /* 设置图形的大小 */
-  height: 160px; /* 设置图形的大小 */
-  background: rgba(234,56,77,1); /* 设置图形的背景色为绿色 */
-  border-radius: 50px; /* 设置角为圆角 */
-  animation: slideAnimation 10s infinite ease-in-out; /* 设置图形的滑动动画 */
-  box-shadow: 0 0 10px rgba(234,56,77, 0.8); /* 设置阴影 */
+  left: 5%;
+  width: 180px; /* 修改图形的大小为直径200px */
+  height: 180px; /* 修改图形的大小为直径200px */
+  background: rgba(234, 56, 77, 1); /* 设置图形的背景色为绿色 */
+  border-radius: 50%; /* 将图形的角改为圆形 */
+  animation: breathAnimation 5s infinite ease-in-out; /* 设置图形的呼吸动画，时长为3秒 */
+  box-shadow: 0 0 10px rgba(234, 56, 77, 0.8); /* 设置阴影 */
 }
 
 #wrapper::after {
