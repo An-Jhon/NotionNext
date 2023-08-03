@@ -90,7 +90,7 @@ body {
   content: "";
   position: fixed; /* 将伪元素固定定位，要配合wrapper的position: relative;使用；absolute为随内容滚动 */
   top: 15%;
-  right: 25px;
+  right: 20px;
   width: 100px; /* 设置图形的大小 */
   height: 100px; /* 设置图形的大小 */
   background: #4B54DE; /* 设置图形的背景色为蓝色 */
