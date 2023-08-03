@@ -78,8 +78,8 @@ body {
   position: fixed;
   bottom: 10%;
   left: -120px;
-  width: 300px; /* 修改图形的大小为直径200px */
-  height: 300px; /* 修改图形的大小为直径200px */
+  width: 400px; /* 修改图形的大小为直径200px */
+  height: 400px; /* 修改图形的大小为直径200px */
   background: rgba(234, 56, 77, 1); /* 设置图形的背景色为绿色 */
   border-radius: 50%; /* 将图形的角改为圆形 */
   animation: breathAnimation 10s infinite ease-in-out; /* 设置图形的呼吸动画，时长为3秒 */
@@ -90,9 +90,9 @@ body {
   content: "";
   position: fixed; /* 将伪元素固定定位，要配合wrapper的position: relative;使用；absolute为随内容滚动 */
   top: 15%;
-  right: -80px;
-  width: 200px; /* 设置图形的大小 */
-  height: 200px; /* 设置图形的大小 */
+  right: 40px;
+  width: 100px; /* 设置图形的大小 */
+  height: 100px; /* 设置图形的大小 */
   background: #4B54DE; /* 设置图形的背景色为蓝色 */
   border-radius: 15px; /* 设置角为圆角 */
   animation: rotateAnimation 20s infinite linear; /* 设置图形的旋转动画 */
