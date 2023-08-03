@@ -77,12 +77,12 @@ body {
   content: "";
   position: fixed;
   bottom: 10%;
-  left: -150px;
+  left: -100px;
   width: 300px; /* 修改图形的大小为直径200px */
   height: 300px; /* 修改图形的大小为直径200px */
   background: rgba(234, 56, 77, 1); /* 设置图形的背景色为绿色 */
   border-radius: 50%; /* 将图形的角改为圆形 */
-  animation: breathAnimation 5s infinite ease-in-out; /* 设置图形的呼吸动画，时长为3秒 */
+  animation: breathAnimation 10s infinite ease-in-out; /* 设置图形的呼吸动画，时长为3秒 */
   box-shadow: 0 0 10px rgba(234, 56, 77, 0.8); /* 设置阴影 */
 }
 
@@ -95,7 +95,7 @@ body {
   height: 200px; /* 设置图形的大小 */
   background: #4B54DE; /* 设置图形的背景色为蓝色 */
   border-radius: 15px; /* 设置角为圆角 */
-  animation: rotateAnimation 15s infinite linear; /* 设置图形的旋转动画 */
+  animation: rotateAnimation 20s infinite linear; /* 设置图形的旋转动画 */
   transform-origin: center; /* 设置旋转的中心点为图形的中心 */
   box-shadow: 0 0 10px rgba(75,84,222, 0.8); /* 设置阴影 */
 }
