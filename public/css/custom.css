@@ -76,7 +76,7 @@ body {
 #wrapper::before {
   content: "";
   position: fixed;
-  bottom: 40%;
+  bottom: 10%;
   left: -150px;
   width: 300px; /* 修改图形的大小为直径200px */
   height: 300px; /* 修改图形的大小为直径200px */
@@ -89,7 +89,7 @@ body {
 #wrapper::after {
   content: "";
   position: fixed; /* 将伪元素固定定位，要配合wrapper的position: relative;使用；absolute为随内容滚动 */
-  top: 25%;
+  top: 15%;
   right: -100px;
   width: 200px; /* 设置图形的大小 */
   height: 200px; /* 设置图形的大小 */
