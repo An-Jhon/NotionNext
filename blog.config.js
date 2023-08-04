@@ -34,6 +34,7 @@ const BLOG = {
   FONT_SANS: [
     // 无衬线字体 例如'LXGW WenKai'
     // '"LXGW WenKai"',
+    '"Noto Sans SC"',
     '-apple-system',
     '"PingFang SC"',
     'Bitter',
