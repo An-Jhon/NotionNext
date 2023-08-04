@@ -20,8 +20,8 @@ const BlogPostCard = ({ post, showSummary, index, siteInfo }) => {
         data-aos-once="false"
         data-aos-anchor-placement="top-bottom"
         className={`flex md:flex-row flex-col-reverse  ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}
-        w-full md:h-64 h-80 justify-between hover:scale-125 drop-shadow-md  
-        border dark:border-black rounded-xl backdrop-blur-md  `}>
+        w-full md:h-64 h-80 justify-between overflow-hidden drop-shadow-md  
+        border dark:border-black rounded-xl bg-white dark:bg-hexo-black-gray  `}>
 
         <div className={`lg:p-8 p-4 flex flex-col  ${showPageCover ? 'md:w-7/12 w-full' : 'w-full'}`}>
           <Link
