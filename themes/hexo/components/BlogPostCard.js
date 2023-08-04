@@ -51,7 +51,7 @@ const BlogPostCard = ({ post, showSummary, index, siteInfo }) => {
 
           {(!showPreview || showSummary) && !post.results && (
             <p style={{ overflow: 'hidden', textOverflow: 'ellipsis', display: '-webkit-box', WebkitLineClamp: '4', WebkitBoxOrient: 'vertical' }}
-              className="replace h-full max-h-32 my-4 text-gray-700  dark:text-gray-300 text-sm font-light leading-7">
+              className="replace h-full max-h-32 my-4 text-gray-700  dark:text-gray-300 text-sm leading-7">
               {post.summary}
             </p>
           )}
