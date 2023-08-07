@@ -34,10 +34,11 @@ const BLOG = {
   FONT_SANS: [
     // 无衬线字体 例如'LXGW WenKai'
     // '"LXGW WenKai"',
-    '"Noto Sans SC"',
+    'sans-serif',
     '-apple-system',
     '"PingFang SC"',
     'Bitter',
+    '"Noto Sans SC"',
     'BlinkMacSystemFont',
     '"Hiragino Sans GB"',
     '"Segoe UI Emoji"',
@@ -50,7 +51,6 @@ const BLOG = {
     'Helvetica',
     '"Source Han Sans SC"',
     'Arial',
-    'sans-serif',
     '"Apple Color Emoji"'
   ],
   FONT_SERIF: [
