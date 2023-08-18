@@ -34,12 +34,12 @@ const BLOG = {
   FONT_SANS: [
     // 无衬线字体 例如'LXGW WenKai'
     // '"LXGW WenKai"',
-    'ui-sans-serif',
     '-apple-system',
+    'BlinkMacSystemFont',
+    'ui-sans-serif',
     '"PingFang SC"',
     'Bitter',
     '"Noto Sans SC"',
-    'BlinkMacSystemFont',
     '"Hiragino Sans GB"',
     '"Segoe UI Emoji"',
     '"Segoe UI Symbol"',
@@ -56,9 +56,6 @@ const BLOG = {
   FONT_SERIF: [
     // 衬线字体 例如'LXGW WenKai'
     // '"LXGW WenKai"',
-    'ui-sans-serif',
-    '-apple-system',
-    '"PingFang SC"',
     'Bitter',
     '"Noto Serif SC"',
     'SimSun',
