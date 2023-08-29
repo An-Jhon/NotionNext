@@ -56,8 +56,6 @@ const BLOG = {
   FONT_SERIF: [
     // 衬线字体 例如'LXGW WenKai'
     // '"LXGW WenKai"',
-    '-apple-system',
-    'BlinkMacSystemFont',
     'Bitter',
     '"Noto Serif SC"',
     'SimSun',
