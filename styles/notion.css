@@ -1650,7 +1650,7 @@ code[class*='language-'] {
 .notion-text,
 .notion-quote,
 .notion-h-title {
-  @apply leading-8;
+  @apply leading-7;
   @apply p-0;
   @apply my-3;
 }
