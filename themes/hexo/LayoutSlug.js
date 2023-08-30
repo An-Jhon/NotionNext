@@ -69,11 +69,8 @@ export const LayoutSlug = props => {
             </section>
 
             {/*
-            {/* 版权 */}
             {post.type === 'Post' && <ArticleCopyright {...props} /> }
-             {/* 推荐相关文章 */}
             {post.type === 'Post' && <ArticleRecommend {...props} /> }
-             {/* 上下篇文章 */}
             {post.type === 'Post' && <ArticleAdjacent {...props} /> }
             */}
 
