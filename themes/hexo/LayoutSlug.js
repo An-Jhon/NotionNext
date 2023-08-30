@@ -68,9 +68,14 @@ export const LayoutSlug = props => {
                 data-ad-slot="3806269138" />
             </section>
 
-            // {post.type === 'Post' && <ArticleCopyright {...props} /> }  // 版权
-            // {post.type === 'Post' && <ArticleRecommend {...props} /> }  // 推荐相关文章
-            // {post.type === 'Post' && <ArticleAdjacent {...props} /> }   // 上下篇文章
+            {/*
+            {/* 版权 */}
+            {post.type === 'Post' && <ArticleCopyright {...props} /> }
+             {/* 推荐相关文章 */}
+            {post.type === 'Post' && <ArticleRecommend {...props} /> }
+             {/* 上下篇文章 */}
+            {post.type === 'Post' && <ArticleAdjacent {...props} /> }
+            */}
 
           </article>
 
