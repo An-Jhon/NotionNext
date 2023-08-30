@@ -23,7 +23,7 @@ export default function HeaderArticle({ post, siteInfo }) {
       style={{ backgroundImage: headerImage }}
     >
       <header className="animate__slideInDown animate__animated bg-black bg-opacity-50 absolute top-0 w-full h-96 py-10 flex justify-center items-center ">
-        <div className='mt-24'>
+        <div className='mt-20'>
           {/* 文章Title */}
           <div className="font-bold text-5xl shadow-text flex justify-center text-center text-white dark:text-white ">
             {post.title}
