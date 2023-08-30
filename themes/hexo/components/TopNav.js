@@ -88,7 +88,7 @@ const TopNav = props => {
   const searchDrawerSlot = <>
     { categories && (
         <section className='mt-8'>
-          <div className='text-sm flex flex-nowrap justify-between font-light px-2'>
+          <div className='text-sm flex flex-nowrap justify-between font-normal px-2'>
             <div className='text-gray-600 dark:text-gray-200'><i className='mr-2 fas fa-th-list' />{locale.COMMON.CATEGORY}</div>
             <Link
               href={'/category'}
@@ -105,7 +105,7 @@ const TopNav = props => {
 
     { tags && (
         <section className='mt-4'>
-          <div className='text-sm py-2 px-2 flex flex-nowrap justify-between font-light dark:text-gray-200'>
+          <div className='text-sm py-2 px-2 flex flex-nowrap justify-between font-normal dark:text-gray-200'>
             <div className='text-gray-600 dark:text-gray-200'><i className='mr-2 fas fa-tag'/>{locale.COMMON.TAGS}</div>
             <Link
               href={'/tag'}
