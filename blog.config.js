@@ -34,8 +34,8 @@ const BLOG = {
   FONT_SANS: [
     // 无衬线字体 例如'LXGW WenKai'
     // '"LXGW WenKai"',
-    // '-apple-system',
-    // 'Bitter',
+    '-apple-system',
+    'Bitter',
     '"Hiragino Sans GB"',
     '"Noto Sans SC"',
     'BlinkMacSystemFont',
