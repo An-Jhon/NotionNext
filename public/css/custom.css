@@ -1,4 +1,4 @@
-/* 静态文件导入 自定义样式*/
+/* /* 静态文件导入 自定义样式*/
 
 @keyframes rotateAnimation {
   0% {
@@ -121,3 +121,4 @@ body {
 footer {
   background-color: rgba(0, 0, 0, 0); /* 设置背景颜色的透明度为 0，如果不生效可以去第7步页脚修改处修改 */
 }
+ */
