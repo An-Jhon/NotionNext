@@ -80,7 +80,7 @@ body {
   left: -120px;
   width: 400px; /* 修改图形的大小为直径200px */
   height: 400px; /* 修改图形的大小为直径200px */
-  background: rgba(234, 56, 77, 1); /* 设置图形的背景色为绿色 */
+  background: rgba(249,217,74, 1); /* 设置图形的背景色 */
   border-radius: 50%; /* 将图形的角改为圆形 */
   animation: breathAnimation 15s infinite ease-in-out; /* 设置图形的呼吸动画，时长为3秒 */
   box-shadow: 0 0 10px rgba(234, 56, 77, 0.8); /* 设置阴影 */
@@ -93,7 +93,7 @@ body {
   right: 17px;
   width: 100px; /* 设置图形的大小 */
   height: 100px; /* 设置图形的大小 */
-  background: #4B54DE; /* 设置图形的背景色为蓝色 */
+  background: rgb(231,245,245);; /* 设置图形的背景色 */
   border-radius: 15px; /* 设置角为圆角 */
   animation: rotateAnimation 20s infinite linear; /* 设置图形的旋转动画 */
   transform-origin: center; /* 设置旋转的中心点为图形的中心 */
