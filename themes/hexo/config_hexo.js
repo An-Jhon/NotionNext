@@ -1,5 +1,5 @@
 const CONFIG_HEXO = {
-  HOME_BANNER_ENABLE: false,
+  HOME_BANNER_ENABLE: true,
   HOME_BANNER_GREETINGS: ['人生没有那么多观众，不妨大胆一点去生活。'], // 首页大图标语文字
 
   HOME_NAV_BUTTONS: false, // 首页是否显示分类大图标按钮
