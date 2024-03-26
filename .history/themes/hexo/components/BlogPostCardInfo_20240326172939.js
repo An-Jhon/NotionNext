@@ -9,7 +9,7 @@ import TagItemMini from './TagItemMini'
  * @returns
  */
 export const BlogPostCardInfo = ({ post, showPreview, showPageCover, showSummary }) => {
-  return <div className={`flex flex-col justify-between lg:p-6 p-4  ${showPageCover && !showPreview ? 'md:w-7/12 w-full h-64 md:max-h-60 ' : 'w-full '}`}>
+  return <div className={`flex flex-col justify-between lg:p-6 p-4  ${showPageCover && !showPreview ? 'md:w-7/12 w-full h-56 md:max-h-60 ' : 'w-full '}`}>
 
        <div>
          {/* 标题 */}
@@ -41,7 +41,7 @@ export const BlogPostCardInfo = ({ post, showPreview, showPageCover, showSummary
 
           {/* 摘要 */}
           {(!showPreview || showSummary) && !post.results && (
-            <p className={`${post.title.length > 20 ? 'two-line-clamp' : 'line-clamp-3'} replace my-3 text-gray-700  dark:text-gray-300 text-sm font-light leading-7`}>
+            <p className="two-line-clamp replace my-3 text-gray-700  dark:text-gray-300 text-sm font-light leading-7">
                 {post.summary}
             </p>
           )}

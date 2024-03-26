@@ -41,7 +41,7 @@ export const BlogPostCardInfo = ({ post, showPreview, showPageCover, showSummary
 
           {/* 摘要 */}
           {(!showPreview || showSummary) && !post.results && (
-            <p className={`${post.title.length > 20 ? 'two-line-clamp' : 'line-clamp-3'} replace my-3 text-gray-700  dark:text-gray-300 text-sm font-light leading-7`}>
+            <p className="replace my-3 text-gray-700  dark:text-gray-300 text-sm font-light leading-7">
                 {post.summary}
             </p>
           )}
