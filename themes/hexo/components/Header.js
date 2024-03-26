@@ -83,7 +83,19 @@ const Header = props => {
   }, throttleMs))
 
   return (
-        <header id="header" style={{ zIndex: 1 }} className="w-full h-screen relative" >
+    <header
+      id="header"
+      className="duration-500 md:bg-fixed w-full bg-cover bg-center h-screen bg-black text-white relative z-10"
+      style={{
+        backgroundImage:
+          `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0.1), rgba(0,0,0,0.0), rgba(0,0,0,0.1), rgba(0, 0, 0, 0.2) ),url("${siteInfo?.pageCover}")`
+      }}
+    >
+      <div className="absolute flex flex-col h-full items-center justify-center w-full ">
+        <div className='text-4xl md:text-5xl text-white shadow-text'>{siteInfo?.title}</div>
+        <div className='mt-2 h-12 items-center text-center shadow-text text-white text-lg'>
+          <span id='typed'/>
+        </div>
 
             <div id='header-cover' style={{ backgroundImage: `url('${siteInfo.pageCover}')` }}
                 className={`header-cover bg-center w-full h-screen bg-cover ${CONFIG_HEXO.HOME_NAV_BACKGROUND_IMG_FIXED ? 'bg-fixed' : ''}`}/>
@@ -104,6 +116,7 @@ const Header = props => {
                 className="cursor-pointer w-full text-center py-4 text-3xl absolute bottom-10 text-white"
             >
                 <i className='animate-bounce fas fa-angle-down' />
+            </div>
             </div>
         </header>
   )

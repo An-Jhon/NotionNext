@@ -39,7 +39,7 @@ const LatestPostsGroup = ({ latestPosts, siteInfo }) => {
                     passHref
                     className={'my-2 flex'}>
 
-                    <div className="w-20 h-16 overflow-hidden relative">
+                    <div className="w-20 h-14 overflow-hidden relative">
                           {/* <Image
                             src={headerImage}
                             fill
